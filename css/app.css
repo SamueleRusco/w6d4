@@ -167,6 +167,7 @@ nav ul li:hover {
 body {
   background-color: #c9cad9;
   font-family: "Azeret Mono", monospace;
+  color: rgb(18, 34, 89);
 }
 
 section {
@@ -190,4 +191,10 @@ section .menu p {
 }
 section .menu:hover {
   left: 0;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  font-size: 4em;
+  margin-left: 2%;
 }/*# sourceMappingURL=app.css.map */
