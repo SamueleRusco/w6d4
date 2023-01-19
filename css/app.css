@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Major+Mono+Display&family=Roboto:wght@400;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.logo {
+  width: 120px;
+  border-right: 2px solid #576490;
+  border-bottom: 2px solid #576490;
+}
+.logo img {
+  height: 50px;
+}
+
+nav {
+  border: 2px solid #576490;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: #d1d2f9;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  border: 2px solid #576490;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+nav ul li:hover {
+  background-color: #7796cb;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #c9cad9;
+  font-family: "Azeret Mono", monospace;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+section .menu {
+  display: flex;
+  border: 2px solid #576490;
+  position: relative;
+  left: -175px;
+  transition: 0.5s;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 10px;
+}
+section .menu p {
+  display: flex;
+  padding: 0 5px 0 20px;
+}
+section .menu:hover {
+  left: 0;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  flex-direction: column;
+  .menu {
+    display: flex;
+    border: $border;
+    position: relative;
+    left: -175px;
+    transition: 0.5s;
+    width: max-content;
+    margin-top: 10px;
+    p {
+      display: flex;
+      padding: 0 5px 0 20px;
+    }
+  }
+  .menu:hover {
+    left: 0;
+  }
+}
